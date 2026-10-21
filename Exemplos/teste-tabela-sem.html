@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de tabela sem cabeçalhos semânticos</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    caption {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    th, td {
+      border: 1px solid #777;
+      padding: 10px;
+      text-align: left;
+    }
+
+    thead {
+      background: #e5e7eb;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Resultados da turma</h1>
+
+  <table>
+    <caption>Notas dos estudantes</caption>
+
+    <thead>
+      <tr>
+        <td>Aluno</td>
+        <td>HTML</td>
+        <td>CSS</td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Ana</td>
+        <td>9,0</td>
+        <td>8,5</td>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>7,5</td>
+        <td>9,0</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
